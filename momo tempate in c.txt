@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+    int number;
+    printf(" MTN Mobile Money:\n");
+    printf(" Please enter number:\n");
+    scanf("%d",&number);
+    
+switch(number){
+    
+
+    case 1:
+    printf(" %d Send money\n",number);
+    break;
+    case 2:
+    printf(" %d Airtime and Bundles\n",number);
+    break;
+    case 3:
+    printf("%d Momo pay\n",number);
+    break;
+    default:
+    printf("%d Invalid input",number);
+}
+    return 0;
+    
+}
